@@ -1,0 +1,215 @@
+*{  margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+} 
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 52px; 
+    width: 112.97px;
+}
+.logo{
+    background-image: url(logo2.png);
+    background-size: cover;
+    height: 52px;
+    width: 112.97px;
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 2px solid rgb(246, 244, 242);
+}
+/** box2 **/
+.add-first{
+color:#cccccc;
+font-size: 1rem;
+margin-left: 15px;
+}
+.add-second{
+ font-size: 1rem;
+ margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items:center;
+    
+}
+/** box 3 **/
+.nave-search{
+display: flex;
+justify-content: space-evenly;
+background-color:rgb(217, 192, 27);
+width: 620px;
+height: 40px;
+border-radius: 5px;
+}
+
+.Search-select{
+    display: flex;
+    background-color: rgb(187, 187, 186);
+    width: 50px;
+    text-align:center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+    }
+    .Search-input{
+        width: 100%;
+        font-size: 1rem;
+        border: none;
+    }
+    .Search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:1.3rem;
+        background-color:orange;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .nave-search:hover{
+        border:2.5px solid orange;
+        
+    }
+    /** box 4 **/
+
+    .Acc-fast{
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+    /** box 5 **/
+    .cart-logo i{
+        font-size: 30px;
+    }
+    .cart-logo{
+        font-size: 0.85rem;
+        font-weight: 700;
+    }
+    /** SCECOND BOX **/
+    .panel{
+        height: 40px;
+       background-color: #222f3d;
+       display: flex;
+       color: white;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    .panel-ops p{
+        display: inline;
+        margin: 10px;
+        
+    }
+    .panel-ops{
+        width: 70%;
+        font-size:1rem;
+    }
+    /** background immage**/
+    .hero-section{
+        background-image: url(Themes.jpg);
+        height: 380px;
+       
+    }
+    /** shope section **/
+    .shop-section{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(207, 236, 243);
+     
+    }
+    .box{
+    /**border: 2px solid black;**/
+    height: 350px;
+    width: 23%;
+    background-color: #f4f7f8;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    }
+    .box-img{
+        height: 280px;
+        background-size:cover;
+        background-repeat:no-repeat ;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    .box-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .shop-section p{
+        color:#007185;
+    }
+    .box-1-box{
+        border: none;
+    }
+    .foot{
+        background-color: #37475a;
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot2{
+        background-color: #222f3d;
+        color: white;
+        height:350px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    ul{
+        margin-top: 20px;
+    }
+    .foot2 ul a{ 
+       display: block;
+       margin-top: 10px;
+    }
+    .foot3{
+        background-color: #222f3d;
+        color: #cccccc;
+        border-top:0.5px solid white;
+        height:80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-Amazon{
+        background-image: url(logo.png);
+        background-size: cover;
+        height: 30px;
+        width: 100px;
+    }
+
+    .last-panel{
+        background-color: #0f1111;
+        color: #cccccc;
+        height: 65px;
+    }
+    .pages {
+        padding-top: 15px;
+        font-size: 0.9rem;
+        text-align: center;
+        
+    
+    }
+    .copyright {
+        padding: 5px;
+        font-size: 0.8rem;
+        text-align: center;
+     
+    }
+
+   
